@@ -1,0 +1,17 @@
+package sqa2;
+import java.util.Scanner;
+/**
+ * @author mohammed al qaderi
+ */
+public class SQA2 {
+    public static void main(String[] args) {
+        Scanner in=new java.util.Scanner(System.in);
+        System.out.println("please enter the following information for blood donation appointment");
+        System.out.print("name: ");
+        String name=in.nextLine();
+        System.out.print("age: ");
+        int age=in.nextInt();
+        System.out.print("weight: ");
+        double weight=in.nextDouble();        
+    }
+}
