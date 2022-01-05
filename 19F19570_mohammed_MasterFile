@@ -12,6 +12,10 @@ public class SQA2 {
         System.out.print("age: ");
         int age=in.nextInt();
         System.out.print("weight: ");
-        double weight=in.nextDouble();        
-    }
-}
+        double weight=in.nextDouble();    
+        
+        if(age<18 && weight<60){
+            System.out.println("\nyou can not donate \n !!Thank You!!");
+        }else{
+            System.out.println("\nyou can donate \n !!Thank You!!");
+        }   }   }
