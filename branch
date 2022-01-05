@@ -18,6 +18,4 @@ public class SQA2 {
             System.out.println("\nyou can not donate \n !!Thank You!!");
         }else{
             System.out.println("\nyou can donate \n !!Thank You!!");
-        }
-    }
-}
+        }   }   }
